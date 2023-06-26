@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+body{
+font-family: Georgia;
+padding: 10px;
+background: rgba(246,231,203);
+}
+/* Header/Blog Title */
+.header {
+padding: 30px;
+text-align: center;
+background: #aaa;
+color: rgba(246,231,203);
+}
+.header h1 {
+font-size: 50px;
+}
+/* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: rgba(103,141,88);
+}
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: rgba(246,231,203);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+background-color: rgba(246,231,203);
+color: rgba(19, 19, 18, 0.932);
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+float: left;
+width: 75%;
+}
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #f1f1f1;
+padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+background-color: #aaa;
+width: 100%;
+padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each
+other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+width: 100%;
+padding: 0;
+}
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each
+other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1> DEPARTAMENTO DE INFORMATICA Y SISTEMAS</h1>
+        <p>FCYT</p>
+        </div>
+        <div class="topnav">
+        <a href="http://127.0.0.1:5500/Pagina2/index2.html?">Registro</a>
+        <a href="http://127.0.0.1:5500/Pagina2/index3.html">Catalogo de Imagenes</a>
+        <a href="https://www.facebook.com/DptoInformaticaSistemas">Pagina de Facebook</a>
+        
+        </div>
+        <div class="row">
+        <div class="leftcolumn">
+        <div class="card">
+        <h2>Sobre el departamento</h2>
+        <h5> Jun 25, 2023</h5>
+        <div class="imageLabo">
+        <img src="inf.jpg" style="height: 200px;">
+        
+        </div>
+        <p>
+            A partir del Departamento de Informática y Sistemas, se impulsa una eficaz y adecuada gestión de las carreras de Informática y Sistemas, dedicadas a la formación de profesionales en el área Ciencias de la Computación Científica y Aplicada, desde 1978. Desde entonces, hasta nuestros días, ha sufrido grandes transformaciones en lo que hace a la formación de profesionales en ciencia y tecnología computacional; transformaciones que permiten a los profesionales contar con un prestigio, a nivel local, nacional e internacional. Dichas transformaciones son producto del avance tecnológico y un propósito firme, de parte del Departamento de Informática y Sistemas y sus respectivas carreras, de formar profesionales acorde a las exigencias de dicho avance y las necesidades del medio. A partir de la primera promoción, aproximadamente en 1985, la labor del Departamento ha sido continua, contando en la actualidad con un promedio de 25 titulados por año.
+        </p>
+        <p>
+            Su mision es formar profesionales competitivos en el área de informática, con principios éticos, conciencia social; que lideren soluciones tecnológicas, promoviendo el desarrollo y la innovación, con capacidad de generar conocimiento científico y tecnológico para atender las demandas locales y globales.
+        </p>
+        </div>
+        <div class="card">
+        <h2>Recursos Humanos</h2>
+        <h5>Encargados de Laboratorios , Jun 25, 2023</h5>
+        <div class="laboratorio">
+        <img src="info.jpg" style="height:200px;">
+        </div>
+        <p>El Departamento cuenta con un equipo de docentes, algunos con grado de Maestría.</p>
+        <p>Ademas de docentes capacitados en diversas areas, se cuenta con un equipo de administradores de laboratorio 
+            y auxiliares AD-Honorem
+        </p>
+        </div>
+        </div>
+        <div class="rightcolumn">
+        <div class="card">
+        <h2>Universidad Mayor de San Simon</h2>
+        <div class="umss">
+        <img src="umss.png" style="height:100px;">
+
+        </div>
+        <p>"Casa superior de estudios", es una universidad pública de Bolivia cuya sede está ubicada en la ciudad de Cochabamba.
+        </p>
+    </div>
+    <div class="card">
+    <h3>Popular Post</h3>
+    <div class="labo">
+        <img src="js.jpg" style="height: 50px;" ; style= "width: 30px">
+        <a href="https://www.youtube.com/watch?v=z95mZVUcJ-E">Aprende JS</a></div>
+    <div class="Sistemas">
+        <img src="html.jpg" style="height: 50px;" ; style= "width: 30px">
+        <a href="https://www.youtube.com/watch?v=kN1XP-Bef7w">Aprende HTML</a></div>
+    <div class="Codigo">
+        <img src="h.webp" style="height: 50px;" ; style= "width: 30px">
+        <a href="https://www.youtube.com/watch?v=OWKXEJN67FE&t=0s">Aprende CSS</a></div>
+    </div>
+    <div class="card">
+    <h3>Para mas informacion</h3>
+    <img src="sho.jpg" style="height: 150px;" ; style= "width: 100px" >
+    <p>Siganme en mis redes sociales Xd</p>
+        <a href="https://www.instagram.com/Fran_suag/?fbclid=IwAR3EdKINgUFKqno9bUq4eEdyw7NIkqwzHrp9TXnaVFOJ4BlZJyVvNr0dLoM">instagram</a>
+    
+    </div>
+    </div>
+    </div>
+    <div class="footer">
+    <h2>Proyectos de investigación y desarrollo</h2>
+    <p>
+        A la fecha, el Departamento de Informática y Sistemas está impulsando las áreas:
+        • Desarrollo de herramientas computacionales como soluciones para la gestión administrativa académica.
+        • Producción de Modelos de Referencia para la elaboración de Proyectos del Área de Ing. de Software.</p>
+    </div>
+    </body>
+    </html>
